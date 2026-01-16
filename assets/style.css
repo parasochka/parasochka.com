@@ -36,7 +36,10 @@ a:hover{color:#143aa8}
   justify-content:flex-start;
   overflow-x:auto;
   -webkit-overflow-scrolling:touch;
+  scrollbar-width:none;
+  -ms-overflow-style:none;
 }
+.nav::-webkit-scrollbar{display:none}
 .nav a{padding:8px 12px;border-radius:999px;text-decoration:none;font-weight:500;color:var(--ink)}
 .nav a:hover{background:var(--accent-soft);color:var(--accent)}
 .brand{font-weight:700;font-size:1.05rem;letter-spacing:.01em}
