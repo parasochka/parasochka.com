@@ -1,0 +1,16 @@
+:root{color-scheme:light dark}
+*{box-sizing:border-box}
+body{margin:0;font-family:system-ui,-apple-system,Segoe UI,Roboto,Arial,sans-serif;line-height:1.6}
+a{color:inherit}
+.container{max-width:980px;margin:0 auto;padding:24px}
+header{position:sticky;top:0;background:Canvas;backdrop-filter:saturate(180%) blur(10px);border-bottom:1px solid color-mix(in oklab,CanvasText 15%,Canvas)}
+.nav{display:flex;gap:14px;flex-wrap:wrap;align-items:center;justify-content:space-between}
+.nav a{padding:8px 10px;border-radius:10px;text-decoration:none;border:1px solid transparent}
+.nav a:hover{border-color:color-mix(in oklab,CanvasText 20%,Canvas)}
+.brand{font-weight:700}
+main{padding:24px 0}
+footer{border-top:1px solid color-mix(in oklab,CanvasText 15%,Canvas);padding:18px 0;margin-top:24px}
+.wp-block-image img{max-width:100%;height:auto;border-radius:12px}
+figure{margin:18px 0}
+figcaption{opacity:.75;font-size:.95em}
+hr{opacity:.35}
