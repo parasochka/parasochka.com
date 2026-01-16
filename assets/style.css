@@ -109,6 +109,28 @@ main{padding:24px 0}
   border-top:1px solid var(--border);
   padding-top:20px;
 }
+.wp-block-social-links{
+  display:flex;
+  flex-wrap:wrap;
+  gap:10px;
+  list-style:none;
+  margin:0;
+  padding:0;
+}
+.wp-block-social-links li{margin:0}
+.wp-block-social-links a{
+  display:inline-flex;
+  align-items:center;
+  justify-content:center;
+  padding:8px 14px;
+  border-radius:999px;
+  border:1px solid var(--border);
+  background:#f8fafc;
+  color:var(--ink);
+  font-weight:600;
+}
+.wp-block-social-links a:hover{border-color:var(--accent);color:var(--accent)}
+.map-embed{margin-top:16px}
 .wp-block-image img{max-width:100%;height:auto;border-radius:16px}
 figure{margin:18px 0}
 figcaption{opacity:.75;font-size:.95em}
