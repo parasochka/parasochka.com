@@ -1,2 +1,0 @@
-# parasochka.com
-parasochka.com
