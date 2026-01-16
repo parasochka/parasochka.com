@@ -8,9 +8,19 @@ header{position:sticky;top:0;background:Canvas;backdrop-filter:saturate(180%) bl
 .nav a{padding:8px 10px;border-radius:10px;text-decoration:none;border:1px solid transparent}
 .nav a:hover{border-color:color-mix(in oklab,CanvasText 20%,Canvas)}
 .brand{font-weight:700}
+.links,.footer-links{display:flex;flex-wrap:wrap;gap:8px 12px}
+.footer-links a{padding:6px 8px;border-radius:8px;text-decoration:none;border:1px solid transparent}
+.footer-links a:hover{border-color:color-mix(in oklab,CanvasText 20%,Canvas)}
+.footer-note{margin:12px 0 0;font-size:.95em;opacity:.8}
 main{padding:24px 0}
 footer{border-top:1px solid color-mix(in oklab,CanvasText 15%,Canvas);padding:18px 0;margin-top:24px}
 .wp-block-image img{max-width:100%;height:auto;border-radius:12px}
 figure{margin:18px 0}
 figcaption{opacity:.75;font-size:.95em}
 hr{opacity:.35}
+@media (max-width:720px){
+  .container{padding:18px}
+  .nav{flex-direction:column;align-items:flex-start}
+  .links,.footer-links{gap:8px}
+  .nav a{padding:6px 8px}
+}
