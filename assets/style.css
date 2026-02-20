@@ -195,15 +195,11 @@ main{padding:24px 0}
   display:inline-flex;
   align-items:center;
   justify-content:center;
-  gap:8px;
-  padding:8px 12px;
-  border-radius:999px;
+  border-radius:10px;
   border:1px solid transparent;
-  color:var(--ink);
-  font-weight:500;
-  white-space:nowrap;
+  line-height:0;
 }
-.social-links a:hover{background:var(--accent-soft);color:var(--accent)}
+.social-links a:hover{background:var(--accent-soft);border-color:var(--accent-soft)}
 .social-icon{width:40px;height:40px;display:block;flex:0 0 auto}
 .map-embed{margin-top:16px}
 .content-image img{max-width:100%;height:auto;border-radius:16px}
