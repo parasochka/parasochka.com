@@ -42,7 +42,10 @@ a:hover{color:#143aa8}
 .nav::-webkit-scrollbar{display:none}
 .nav a{padding:8px 12px;border-radius:999px;text-decoration:none;font-weight:500;color:var(--ink)}
 .nav a:hover{background:var(--accent-soft);color:var(--accent)}
-.brand{font-weight:700;font-size:1.05rem;letter-spacing:.01em}
+.logo-link{padding:0 !important;display:inline-flex;align-items:center;justify-content:center;border-radius:16px}
+.logo-link:hover{background:transparent !important}
+.site-logo{width:80px;height:80px;display:block;object-fit:contain}
+.brand{font-weight:800;font-size:1.05rem;letter-spacing:.01em}
 .links,.footer-links{display:flex;flex-wrap:wrap;gap:10px 14px}
 .links{flex-wrap:nowrap}
 .links a{flex:0 0 auto}
@@ -158,7 +161,8 @@ a:hover{color:#143aa8}
   color:var(--muted);
 }
 .footer-links a:hover{border-color:var(--border);color:var(--ink)}
-.footer-note{margin:12px 0 0;font-size:.95em;color:var(--muted)}
+.footer-note{margin:12px 0 0;font-size:.95em;color:var(--muted);display:flex;align-items:center;gap:10px}
+.footer-logo{width:80px;height:80px;display:block;object-fit:contain;flex:0 0 auto}
 main{padding:24px 0}
 .site-footer{padding:22px 0;margin-top:24px}
 .site-footer .container{
