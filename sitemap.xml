@@ -13,6 +13,12 @@
     <loc>https://parasochka.com/sidely-chatgpt-sidebar/</loc>
   </url>
   <url>
+    <loc>https://parasochka.com/greekly/</loc>
+    <xhtml:link xmlns:xhtml="http://www.w3.org/1999/xhtml" rel="alternate" hreflang="en" href="https://parasochka.com/greekly/"/>
+    <xhtml:link xmlns:xhtml="http://www.w3.org/1999/xhtml" rel="alternate" hreflang="ru" href="https://parasochka.com/ru/greekly/"/>
+    <xhtml:link xmlns:xhtml="http://www.w3.org/1999/xhtml" rel="alternate" hreflang="x-default" href="https://parasochka.com/greekly/"/>
+  </url>
+  <url>
     <loc>https://parasochka.com/privacy-policy/</loc>
   </url>
   <url>
@@ -30,6 +36,12 @@
   </url>
   <url>
     <loc>https://parasochka.com/ru/sidely-chatgpt-sidebar/</loc>
+  </url>
+  <url>
+    <loc>https://parasochka.com/ru/greekly/</loc>
+    <xhtml:link xmlns:xhtml="http://www.w3.org/1999/xhtml" rel="alternate" hreflang="en" href="https://parasochka.com/greekly/"/>
+    <xhtml:link xmlns:xhtml="http://www.w3.org/1999/xhtml" rel="alternate" hreflang="ru" href="https://parasochka.com/ru/greekly/"/>
+    <xhtml:link xmlns:xhtml="http://www.w3.org/1999/xhtml" rel="alternate" hreflang="x-default" href="https://parasochka.com/greekly/"/>
   </url>
   <url>
     <loc>https://parasochka.com/ru/privacy-policy/</loc>
