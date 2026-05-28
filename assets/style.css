@@ -42,6 +42,7 @@ a:hover{color:#143aa8}
 .nav::-webkit-scrollbar{display:none}
 .nav a{padding:8px 12px;border-radius:999px;text-decoration:none;font-weight:500;color:var(--ink)}
 .nav a:hover{background:var(--accent-soft);color:var(--accent)}
+.nav .nav-multiline{text-align:center;line-height:1.15;padding-top:6px;padding-bottom:6px}
 .logo-link{padding:0 !important;display:inline-flex;align-items:center;justify-content:center;border-radius:16px}
 .logo-link:hover{background:transparent !important}
 .site-logo{width:80px;height:80px;display:block;object-fit:contain}
