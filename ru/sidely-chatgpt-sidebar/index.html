@@ -4,12 +4,16 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>Расширение Sidely для Chrome - Артём Парасочка</title>
-<link rel="stylesheet" href="/assets/style.css">
+<meta name="description" content="Расширение Sidely добавляет ChatGPT в боковую панель Chrome: быстро, безопасно и с акцентом на приватность при работе через ваш аккаунт OpenAI.">
 <link rel="canonical" href="https://parasochka.com/ru/sidely-chatgpt-sidebar/">
 <link rel="alternate" hreflang="en" href="https://parasochka.com/sidely-chatgpt-sidebar/">
 <link rel="alternate" hreflang="ru" href="https://parasochka.com/ru/sidely-chatgpt-sidebar/">
 <link rel="alternate" hreflang="x-default" href="https://parasochka.com/sidely-chatgpt-sidebar/">
-<meta name="description" content="Расширение Sidely добавляет ChatGPT в боковую панель Chrome: быстро, безопасно и с акцентом на приватность при работе через ваш аккаунт OpenAI.">
+<meta name="theme-color" content="#0f2436">
+<link rel="icon" href="/assets/logo.png" type="image/png">
+<link rel="apple-touch-icon" href="/assets/logo.png">
+<link rel="preload" href="/assets/fonts/manrope-latin.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="stylesheet" href="/assets/style.css">
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
@@ -35,79 +39,162 @@
   ]
 }
 </script>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "SoftwareApplication",
+  "name": "Sidely – ChatGPT Sidebar for Chrome",
+  "operatingSystem": "Chrome OS, Windows, macOS, Linux",
+  "applicationCategory": "BrowserExtension",
+  "description": "Используйте ChatGPT в боковой панели Chrome с Sidely - быстрым и безопасным расширением, работающим через ваш аккаунт.",
+  "softwareVersion": "1.0",
+  "url": "https://parasochka.com/ru/sidely-chatgpt-sidebar/",
+  "downloadUrl": "https://chromewebstore.google.com/detail/sidely-chatgpt-sidebar/ibgipmeolfponfpmjhflfgkbcecpmcoo",
+  "image": "https://lh3.googleusercontent.com/wr7WPAkTuYRWmfZl_1ZjGITojLlc_sWE7Mfy714Ve-HJp87bSyI33kT2LBUBLEY9H6hLAr258D-NkmqoDm5FIJIaEA=s128-rw",
+  "publisher": {
+    "@type": "Person",
+    "name": "Artem Parasochka",
+    "url": "https://parasochka.com/"
+  },
+  "offers": {
+    "@type": "Offer",
+    "price": "0.00",
+    "priceCurrency": "USD"
+  },
+  "aggregateRating": {
+    "@type": "AggregateRating",
+    "ratingValue": "4.9",
+    "reviewCount": "120"
+  }
+}
+</script>
 </head>
 <body>
 <header class="site-header">
- <div class="container">
- <nav class="nav">
- <a class="logo-link" href="/ru/" aria-label="Главная">
-  <img class="site-logo" src="/assets/logo.png" alt="Логотип Parasochka" width="80" height="80">
- </a>
- <a class="brand" href="/ru/">Артём<br>Парасочка</a>
- <div class="links"><a href="/ru/about-me/">Обо мне</a><a href="/ru/contacts/">Контакты</a><a class="nav-multiline" href="/ru/sidely-chatgpt-sidebar/">Sidely<br>Extension</a><a class="nav-multiline" href="/ru/greekly/">Greekly<br>App</a><a href="/">EN</a></div>
- </nav>
- </div>
+  <div class="wrap">
+    <a class="brand" href="/ru/"><img src="/assets/logo.png" alt="Логотип Parasochka" width="40" height="40">Артём Парасочка</a>
+    <button class="nav-toggle" type="button" aria-expanded="false" aria-controls="site-nav" aria-label="Меню"><svg class="icon-menu" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M4 7h16M4 12h16M4 17h16"/></svg><svg class="icon-close" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M6 6l12 12M18 6L6 18"/></svg></button>
+    <nav class="site-nav" id="site-nav">
+      <a href="/ru/about-me/">Обо мне</a>
+      <a href="/ru/sidely-chatgpt-sidebar/" class="active">Sidely Extension</a>
+      <a href="/ru/greekly/">Greekly App</a>
+      <a class="lang" href="/sidely-chatgpt-sidebar/" hreflang="en" lang="en">EN</a>
+      <a class="nav-cta" href="/ru/contacts/">Контакты</a>
+    </nav>
+  </div>
 </header>
-<main class="container page">
-<h1>Расширение Sidely для Chrome</h1>
-<p><strong>Используйте ChatGPT прямо в боковой панели Chrome с Sidely - быстрым, безопасным и приватным расширением, которое работает через ваш собственный аккаунт OpenAI.</strong></p>
-<p>Sidely превращает браузер в мощного ИИ-помощника. Не нужно переключать вкладки, копировать промпты или отдельно открывать chat.openai.com.<br>Он всегда у вас под рукой в <a href="https://chromewebstore.google.com/detail/sidely-chatgpt-sidebar/ibgipmeolfponfpmjhflfgkbcecpmcoo">боковой панели Chrome</a> - когда нужно, тогда и работает.</p>
-<p></p>
-<div style="max-width:650px;width:100%;margin:0 auto;border:1px solid #E5E7EB;border-radius:16px;padding:20px;background:#fff;box-shadow:0 4px 12px rgba(0,0,0,0.06);font-family:system-ui,Arial,sans-serif;box-sizing:border-box;"><div style="display:flex;align-items:center;margin-bottom:16px;flex-wrap:wrap;"><img src="https://lh3.googleusercontent.com/wr7WPAkTuYRWmfZl_1ZjGITojLlc_sWE7Mfy714Ve-HJp87bSyI33kT2LBUBLEY9H6hLAr258D-NkmqoDm5FIJIaEA=s128-rw" alt="Иконка Sidely" width="64" height="64" style="border-radius:12px;margin-right:14px;margin-bottom:10px;"><div style="flex:1;min-width:200px;"><h2 style="font-size:20px;font-weight:600;margin:0;color:#111;">Sidely - ChatGPT в боковой панели</h2><p style="margin:4px 0 0;color:#666;font-size:15px;">Используйте ChatGPT в боковой панели Chrome</p></div></div> <p style="font-size:16px;line-height:1.6;color:#333;margin-bottom:16px;">Безопасное и быстрое расширение ChatGPT для боковой панели, которое работает через ваш аккаунт OpenAI. Общайтесь, делайте краткие выжимки, переводите и генерируйте идеи - не покидая страницу. </p><div style="display:flex;align-items:center;margin-bottom:16px;"><div style="color:#f5a623;font-size:17px;letter-spacing:1px;">★★★★★</div><span style="color:#555;font-size:15px;margin-left:6px;">4.9 · 120 отзывов</span></div><a href="https://chromewebstore.google.com/detail/sidely-chatgpt-sidebar/ibgipmeolfponfpmjhflfgkbcecpmcoo" target="_blank" style="display:inline-block;text-decoration:none;background:#2563EB;color:#fff;font-weight:600;padding:12px 22px;border-radius:8px;font-size:15px;">Установить из Chrome Web Store</a><script type="application/ld+json"> { "@context": "https://schema.org", "@type": "SoftwareApplication", "name": "Sidely – ChatGPT Sidebar for Chrome", "operatingSystem": "Chrome OS, Windows, macOS, Linux", "applicationCategory": "BrowserExtension", "description": "Используйте ChatGPT в боковой панели Chrome с Sidely - быстрым и безопасным расширением, работающим через ваш аккаунт.", "softwareVersion": "1.0", "url": "https://parasochka.com/ru/sidely-chatgpt-sidebar/", "downloadUrl": "https://chromewebstore.google.com/detail/sidely-chatgpt-sidebar/ibgipmeolfponfpmjhflfgkbcecpmcoo", "image": "https://lh3.googleusercontent.com/wr7WPAkTuYRWmfZl_1ZjGITojLlc_sWE7Mfy714Ve-HJp87bSyI33kT2LBUBLEY9H6hLAr258D-NkmqoDm5FIJIaEA=s128-rw", "publisher": { "@type": "Person", "name": "Artem Parasochka", "url": "https://parasochka.com/" }, "offers": { "@type": "Offer", "price": "0.00", "priceCurrency": "USD" }, "aggregateRating": { "@type": "AggregateRating", "ratingValue": "4.9", "reviewCount": "120" } } </script></div><hr class="section-separator"/>
-<h3 class="section-heading">⚙️ Что делает Sidely</h3>
-<p>Sidely нативно встраивает ChatGPT в Chrome.<br>Вы можете общаться с ИИ, генерировать идеи, делать выжимки текста, переводить, объяснять код и решать повседневные задачи - не покидая текущую страницу.</p>
-<p>В отличие от многих других расширений, <a href="https://chromewebstore.google.com/detail/sidely-chatgpt-sidebar/ibgipmeolfponfpmjhflfgkbcecpmcoo">Sidely подключается напрямую</a> к вашей <strong>собственной сессии ChatGPT</strong> - без лишних логинов, без сторонних серверов и без рисков для приватности.</p>
-<hr class="section-separator"/>
-<h3 class="section-heading">🔑 Ключевые возможности</h3>
-<ul class="content-list">
-<li><strong>Доступ в один клик</strong> к ChatGPT из любой вкладки</li>
-<li><strong>Работает с вашим существующим аккаунтом OpenAI</strong> - без регистрации и внешних логинов</li>
-<li><strong>Лёгкое и быстрое расширение</strong> - минимальная нагрузка на браузер и мгновенный запуск</li>
-<li><strong>Безопасность и приватность</strong> - данные чатов и учетные данные не покидают ваш браузер</li>
-<li><strong>Поддержка GPT-5 и GPT-4</strong> - в зависимости от вашего тарифа OpenAI</li>
-<li><strong>Для разных задач:</strong> выжимка статей, написание писем, переводы, отладка, брейншторм и многое другое</li>
-</ul>
-<hr class="section-separator"/>
-<h3 class="section-heading">💡 Почему выбирают Sidely</h3>
-<p>Если вы используете ChatGPT каждый день - для работы, учёбы или личных задач - <a href="https://chromewebstore.google.com/detail/sidely-chatgpt-sidebar/ibgipmeolfponfpmjhflfgkbcecpmcoo">Sidely</a> делает доступ к нему постоянным и без отвлечений.<br>Хватит терять время на переключение вкладок. Sidely делает ChatGPT естественной частью Chrome.</p>
-<p>Подходит для:</p>
-<ul class="content-list">
-<li>Копирайтеров и маркетологов</li>
-<li>Разработчиков и студентов</li>
-<li>Исследователей и контент-мейкеров</li>
-<li>Всех, кому нужен более быстрый рабочий процесс</li>
-</ul>
-<hr class="section-separator"/>
-<h3 class="section-heading">🔒 Приватность в основе</h3>
-<p>Ваша сессия ChatGPT работает <strong>локально в боковой панели Chrome</strong> через встроенный интерфейс.<br>Sidely <strong>не</strong>:</p>
-<ul class="content-list">
-<li>собирает или хранит данные ваших чатов</li>
-<li>получает доступ к данным входа в OpenAI</li>
-<li>отправляет информацию об использовании за пределы браузера</li>
-</ul>
-<p>Вы остаетесь авторизованы в ChatGPT так же, как и на chat.openai.com, - но в компактной и <a href="https://chromewebstore.google.com/detail/sidely-chatgpt-sidebar/ibgipmeolfponfpmjhflfgkbcecpmcoo">удобной боковой панели</a>.</p>
-<hr class="section-separator"/>
-<h3 class="section-heading">🚀 Скоро в Sidely</h3>
-<p>Мы работаем над новыми возможностями, чтобы сделать Sidely еще мощнее:</p>
-<ul class="content-list">
-<li>Пользовательские <strong>шорткаты и шаблоны промптов</strong></li>
-<li>Опциональные <strong>горячие клавиши</strong> для быстрого доступа</li>
-</ul>
-<hr class="section-separator"/>
-<h3 class="section-heading">⚡ Установите Sidely прямо сейчас</h3>
-<p>Добавьте возможности ChatGPT на любой сайт - не ломая ваш рабочий поток.<br>Установите <strong><a href="https://chromewebstore.google.com/detail/sidely-chatgpt-sidebar/ibgipmeolfponfpmjhflfgkbcecpmcoo">Sidely - ChatGPT Sidebar for Chrome</a></strong> из Chrome Web Store и сделайте ИИ естественной частью ежедневной работы в браузере.</p>
+<main>
+<section class="product-hero">
+  <div class="wrap">
+    <div>
+      <span class="eyebrow">Расширение для Chrome</span>
+      <h1>Расширение Sidely для Chrome</h1>
+      <p class="lead"><strong>Используйте ChatGPT прямо в боковой панели Chrome с Sidely - быстрым, безопасным и приватным расширением, которое работает через ваш собственный аккаунт OpenAI.</strong></p>
+      <p>Sidely превращает браузер в мощного ИИ-помощника. Не нужно переключать вкладки, копировать промпты или отдельно открывать chat.openai.com.<br>Он всегда у вас под рукой в <a href="https://chromewebstore.google.com/detail/sidely-chatgpt-sidebar/ibgipmeolfponfpmjhflfgkbcecpmcoo">боковой панели Chrome</a> - когда нужно, тогда и работает.</p>
+    </div>
+    <div class="store-card">
+      <div class="head">
+        <img src="https://lh3.googleusercontent.com/wr7WPAkTuYRWmfZl_1ZjGITojLlc_sWE7Mfy714Ve-HJp87bSyI33kT2LBUBLEY9H6hLAr258D-NkmqoDm5FIJIaEA=s128-rw" alt="Иконка Sidely" width="64" height="64">
+        <div>
+          <h2>Sidely - ChatGPT в боковой панели</h2>
+          <p class="sub">Используйте ChatGPT в боковой панели Chrome</p>
+        </div>
+      </div>
+      <p class="desc">Безопасное и быстрое расширение ChatGPT для боковой панели, которое работает через ваш аккаунт OpenAI. Общайтесь, делайте краткие выжимки, переводите и генерируйте идеи - не покидая страницу.</p>
+      <div class="rating"><span class="stars">★★★★★</span><span>4.9 · 120 отзывов</span></div>
+      <a class="btn btn-primary" href="https://chromewebstore.google.com/detail/sidely-chatgpt-sidebar/ibgipmeolfponfpmjhflfgkbcecpmcoo" target="_blank" rel="noopener">Установить из Chrome Web Store</a>
+    </div>
+  </div>
+</section>
+
+<section class="section alt">
+  <div class="wrap">
+    <div class="feature-blocks">
+      <div class="block">
+        <h3>⚙️ Что делает Sidely</h3>
+        <p>Sidely нативно встраивает ChatGPT в Chrome.<br>Вы можете общаться с ИИ, генерировать идеи, делать выжимки текста, переводить, объяснять код и решать повседневные задачи - не покидая текущую страницу.</p>
+        <p>В отличие от многих других расширений, <a href="https://chromewebstore.google.com/detail/sidely-chatgpt-sidebar/ibgipmeolfponfpmjhflfgkbcecpmcoo">Sidely подключается напрямую</a> к вашей <strong>собственной сессии ChatGPT</strong> - без лишних логинов, без сторонних серверов и без рисков для приватности.</p>
+      </div>
+      <div class="block">
+        <h3>🔑 Ключевые возможности</h3>
+        <ul>
+          <li><strong>Доступ в один клик</strong> к ChatGPT из любой вкладки</li>
+          <li><strong>Работает с вашим существующим аккаунтом OpenAI</strong> - без регистрации и внешних логинов</li>
+          <li><strong>Лёгкое и быстрое расширение</strong> - минимальная нагрузка на браузер и мгновенный запуск</li>
+          <li><strong>Безопасность и приватность</strong> - данные чатов и учетные данные не покидают ваш браузер</li>
+          <li><strong>Поддержка GPT-5 и GPT-4</strong> - в зависимости от вашего тарифа OpenAI</li>
+          <li><strong>Для разных задач:</strong> выжимка статей, написание писем, переводы, отладка, брейншторм и многое другое</li>
+        </ul>
+      </div>
+      <div class="block">
+        <h3>💡 Почему выбирают Sidely</h3>
+        <p>Если вы используете ChatGPT каждый день - для работы, учёбы или личных задач - <a href="https://chromewebstore.google.com/detail/sidely-chatgpt-sidebar/ibgipmeolfponfpmjhflfgkbcecpmcoo">Sidely</a> делает доступ к нему постоянным и без отвлечений.<br>Хватит терять время на переключение вкладок. Sidely делает ChatGPT естественной частью Chrome.</p>
+        <p>Подходит для:</p>
+        <ul>
+          <li>Копирайтеров и маркетологов</li>
+          <li>Разработчиков и студентов</li>
+          <li>Исследователей и контент-мейкеров</li>
+          <li>Всех, кому нужен более быстрый рабочий процесс</li>
+        </ul>
+      </div>
+      <div class="block">
+        <h3>🔒 Приватность в основе</h3>
+        <p>Ваша сессия ChatGPT работает <strong>локально в боковой панели Chrome</strong> через встроенный интерфейс.<br>Sidely <strong>не</strong>:</p>
+        <ul>
+          <li>собирает или хранит данные ваших чатов</li>
+          <li>получает доступ к данным входа в OpenAI</li>
+          <li>отправляет информацию об использовании за пределы браузера</li>
+        </ul>
+        <p>Вы остаетесь авторизованы в ChatGPT так же, как и на chat.openai.com, - но в компактной и <a href="https://chromewebstore.google.com/detail/sidely-chatgpt-sidebar/ibgipmeolfponfpmjhflfgkbcecpmcoo">удобной боковой панели</a>.</p>
+      </div>
+      <div class="block">
+        <h3>🚀 Скоро в Sidely</h3>
+        <p>Мы работаем над новыми возможностями, чтобы сделать Sidely еще мощнее:</p>
+        <ul>
+          <li>Пользовательские <strong>шорткаты и шаблоны промптов</strong></li>
+          <li>Опциональные <strong>горячие клавиши</strong> для быстрого доступа</li>
+        </ul>
+      </div>
+      <div class="block wide">
+        <h3>⚡ Установите Sidely прямо сейчас</h3>
+        <p>Добавьте возможности ChatGPT на любой сайт - не ломая ваш рабочий поток.<br>Установите <strong><a href="https://chromewebstore.google.com/detail/sidely-chatgpt-sidebar/ibgipmeolfponfpmjhflfgkbcecpmcoo">Sidely - ChatGPT Sidebar for Chrome</a></strong> из Chrome Web Store и сделайте ИИ естественной частью ежедневной работы в браузере.</p>
+      </div>
+    </div>
+  </div>
+</section>
 </main>
 <footer class="site-footer">
-  <div class="container">
-    <ul class="social-links">
-      <li><a href="https://www.linkedin.com/in/parasochka/" aria-label="LinkedIn" target="_blank" rel="noreferrer noopener nofollow"><svg class="social-icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" role="img" aria-hidden="true" focusable="false" fill="#ffffff"><rect width="512" height="512" rx="15%" fill="#0077b5"></rect><circle cx="142" cy="138" r="37"></circle><path stroke="#ffffff" stroke-width="66" d="M244 194v198M142 194v198"></path><path d="M276 282c0-20 13-40 36-40 24 0 33 18 33 45v105h66V279c0-61-32-89-76-89-34 0-51 19-59 32"></path></svg></a></li>
-      <li><a href="https://www.facebook.com/parasochka" aria-label="Facebook" target="_blank" rel="noreferrer noopener nofollow"><svg class="social-icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" role="img" aria-hidden="true" focusable="false"><rect width="512" height="512" rx="15%" fill="#1877f2"></rect><path d="M355.6 330l11.4-74h-71v-48c0-20.2 9.9-40 41.7-40H370v-63s-29.3-5-57.3-5c-58.5 0-96.7 35.4-96.7 99.6V256h-65v74h65v182h80V330h59.6z" fill="#ffffff"></path></svg></a></li>
-      <li><a href="https://twitter.com/parasochkaartem" aria-label="Twitter" target="_blank" rel="noreferrer noopener nofollow"><svg class="social-icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" role="img" aria-hidden="true" focusable="false"><rect width="512" height="512" rx="15%" fill="#1da1f2"></rect><path fill="#ffffff" d="M437 152a72 72 0 01-40 12a72 72 0 0032-40a72 72 0 01-45 17a72 72 0 00-122 65a200 200 0 01-145-74a72 72 0 0022 94a72 72 0 01-32-7a72 72 0 0056 69a72 72 0 01-32 1a72 72 0 0067 50a200 200 0 01-105 29a200 200 0 00309-179a200 200 0 0035-37"></path></svg></a></li>
-      <li><a href="https://t.me/aparasochka" aria-label="Telegram" target="_blank" rel="noreferrer noopener nofollow"><svg class="social-icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" role="img" aria-hidden="true" focusable="false"><rect width="512" height="512" rx="15%" fill="#37aee2"></rect><path fill="#c8daea" d="M199 404c-11 0-10-4-13-14l-32-105 245-144"></path><path fill="#a9c9dd" d="M199 404c7 0 11-4 16-8l45-43-56-34"></path><path fill="#f6fbfe" d="M204 319l135 99c14 9 26 4 30-14l55-258c5-22-9-32-24-25L79 245c-21 8-21 21-4 26l83 26 190-121c9-5 17-3 11 4"></path></svg></a></li>
-    </ul>
-    <div class="footer-links"><a href="/ru/privacy-policy/">Политика конфиденциальности</a><a href="/ru/cookie-policy/">Политика cookie</a></div>
-    <p class="footer-note">© Сделано с любовью к минимализму!</p>
+  <div class="wrap">
+    <div class="top">
+      <a class="brand" href="/ru/"><img src="/assets/logo.png" alt="Логотип Parasochka" width="40" height="40">Артём Парасочка</a>
+      <div class="links">
+        <a href="/ru/about-me/">Обо мне</a>
+        <a href="/ru/contacts/">Контакты</a>
+        <a href="/ru/privacy-policy/">Политика конфиденциальности</a>
+        <a href="/ru/cookie-policy/">Политика cookie</a>
+        <a href="/sidely-chatgpt-sidebar/" hreflang="en" lang="en">English</a>
+      </div>
+    </div>
+    <div class="bottom">
+      <p>© Сделано с любовью к минимализму!</p>
+      <ul class="social-links">
+        <li><a href="https://www.linkedin.com/in/parasochka/" aria-label="LinkedIn" target="_blank" rel="noreferrer noopener nofollow"><svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M20.45 20.45h-3.55v-5.57c0-1.33-.03-3.04-1.85-3.04-1.85 0-2.14 1.45-2.14 2.94v5.67H9.36V9h3.41v1.56h.05c.47-.9 1.63-1.85 3.36-1.85 3.6 0 4.27 2.37 4.27 5.45v6.29zM5.34 7.43a2.06 2.06 0 1 1 0-4.12 2.06 2.06 0 0 1 0 4.12zM7.12 20.45H3.56V9h3.56v11.45zM22.22 0H1.77C.79 0 0 .77 0 1.73v20.54C0 23.23.79 24 1.77 24h20.45c.98 0 1.78-.77 1.78-1.73V1.73C24 .77 23.2 0 22.22 0z"/></svg></a></li>
+        <li><a href="https://www.facebook.com/parasochka" aria-label="Facebook" target="_blank" rel="noreferrer noopener nofollow"><svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M24 12.07C24 5.4 18.63 0 12 0S0 5.4 0 12.07C0 18.1 4.39 23.09 10.13 24v-8.44H7.08v-3.49h3.05V9.41c0-3.02 1.79-4.69 4.53-4.69 1.31 0 2.69.24 2.69.24v2.97h-1.52c-1.49 0-1.96.93-1.96 1.89v2.25h3.33l-.53 3.49h-2.8V24C19.61 23.09 24 18.1 24 12.07z"/></svg></a></li>
+        <li><a href="https://twitter.com/parasochkaartem" aria-label="Twitter" target="_blank" rel="noreferrer noopener nofollow"><svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M18.24 2.25h3.31l-7.23 8.26 8.5 11.24h-6.66l-5.21-6.82-5.97 6.82H1.67l7.73-8.84L1.25 2.25h6.83l4.71 6.23 5.45-6.23zm-1.16 17.52h1.83L7.08 4.13H5.12l11.96 15.64z"/></svg></a></li>
+        <li><a href="https://t.me/aparasochka" aria-label="Telegram" target="_blank" rel="noreferrer noopener nofollow"><svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M12 0C5.37 0 0 5.37 0 12s5.37 12 12 12 12-5.37 12-12S18.63 0 12 0zm5.56 8.16l-1.97 9.28c-.15.66-.54.82-1.09.51l-3-2.21-1.45 1.39c-.16.16-.29.29-.6.29l.21-3.05 5.56-5.02c.24-.21-.05-.33-.37-.12l-6.87 4.33-2.96-.92c-.64-.2-.66-.64.13-.95l11.57-4.46c.54-.2 1.01.12.84.93z"/></svg></a></li>
+      </ul>
+    </div>
   </div>
 </footer>
+<script>
+(function () {
+  var h = document.querySelector('.site-header'), b = document.querySelector('.nav-toggle');
+  if (!h || !b) return;
+  b.addEventListener('click', function () {
+    var open = h.classList.toggle('open');
+    b.setAttribute('aria-expanded', open ? 'true' : 'false');
+  });
+})();
+</script>
 </body>
 </html>
